@@ -68,12 +68,18 @@ src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></scri
             };
             return JSON.stringify(jsonStrObj);
          }
+         function resetForm() {
+            $("#empId").val("")
+            $("#empName").val("");
+            $("#empEmail").val("");
+            $("#empId").focus();
+            }
         function saveEmployee(){
             var jsonStr = validateAndGetFormData();
             if (jsonStr === "") {
             return;
             }
-            var putReqStr = createPUTRequest("90938580|-31948825552808628|90946698",jsonStr, "employee", "emp-rel");
+            var putReqStr = createPUTRequest("90938580|-31948825552808628|90946698",jsonStr, "employe", "emp-rel");
             alert(putReqStr);
             jQuery.ajaxSetup({async: false});
             var resultObj = executeCommandAtGivenBaseUrl(putReqStr,"http://api.login2explore.com:5577", "/api/iml");
