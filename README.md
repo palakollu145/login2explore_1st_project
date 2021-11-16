@@ -1,4 +1,4 @@
-# login2explore_1st_project
+# CRUD with JsonPowerDB
 *This project is to learn creating a sample html from through which we can get data and the data is stored in Json Power DB also gaining knowledge to perform CRUD operations with JPDB*
 
 ## JsonPowerDB
@@ -10,3 +10,8 @@
 - It can be used as multi mode database
 - Inbuilt support for Querying Multiple Databases
 - Multiple Security layers
+
+### front-end 
+![front end image](https://drive.google.com/file/d/1kDVllpvNX_YLTrdOxiN5dI49okSEPUN1/view?usp=sharing)
+### inserted data in JPDB
+![database image](https://drive.google.com/file/d/1kDVllpvNX_YLTrdOxiN5dI49okSEPUN1/view?usp=sharing)
